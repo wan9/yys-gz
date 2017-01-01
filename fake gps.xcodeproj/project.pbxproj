@@ -34,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		226411CF1E1962D6006017E5 /* guangzhou.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = guangzhou.gpx; sourceTree = "<group>"; };
 		22B660CB1E195CB80003025B /* fake gps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fake gps.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22B660CE1E195CB80003025B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		22B660D01E195CB80003025B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +78,7 @@
 		22B660C21E195CB80003025B = {
 			isa = PBXGroup;
 			children = (
+				226411CF1E1962D6006017E5 /* guangzhou.gpx */,
 				22B660CD1E195CB80003025B /* fake gps */,
 				22B660E21E195CB80003025B /* fake gpsTests */,
 				22B660ED1E195CB80003025B /* fake gpsUITests */,
@@ -193,6 +195,7 @@
 				TargetAttributes = {
 					22B660CA1E195CB80003025B = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PAP8RWK584;
 						ProvisioningStyle = Automatic;
 					};
 					22B660DE1E195CB80003025B = {
@@ -412,6 +415,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PAP8RWK584;
 				INFOPLIST_FILE = "fake gps/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "n.fake-gps";
@@ -424,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PAP8RWK584;
 				INFOPLIST_FILE = "fake gps/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "n.fake-gps";
@@ -505,6 +510,7 @@
 				22B660F51E195CB80003025B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B660F61E195CB80003025B /* Build configuration list for PBXNativeTarget "fake gpsTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				22B660F81E195CB80003025B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		22B660F91E195CB80003025B /* Build configuration list for PBXNativeTarget "fake gpsUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				22B660FB1E195CB80003025B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
